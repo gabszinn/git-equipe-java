@@ -13,6 +13,8 @@ public class Gato extends Animal {
 
     @Override
     public String toString() {
-        return super.toString()
-    }
+    return "Especie: " + getEspecie() +
+           ", Sexo: " + getSexo() +
+           ", Idade: " + getIdade();
+   }
 }
