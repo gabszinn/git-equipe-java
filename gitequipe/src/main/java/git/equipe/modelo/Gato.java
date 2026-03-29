@@ -22,7 +22,6 @@ public class Gato extends Animal {
         return "Miau Miau!";
     }
 
-    @Override
     public String toString() {
         return super.toString() + ", Raça: " + raca;
     }
