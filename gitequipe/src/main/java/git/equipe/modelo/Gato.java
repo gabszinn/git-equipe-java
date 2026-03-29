@@ -13,8 +13,5 @@ public class Gato extends Animal {
 
     @Override
     public String toString() {
-    return "Especie: " + getEspecie() +
-           ", Sexo: " + getSexo() +
-           ", Idade: " + getIdade();
-   }
-}
+    return "Especie:  " + especie + ", Idade:  " + idade + " Sexo: " + sexo;
+    }
