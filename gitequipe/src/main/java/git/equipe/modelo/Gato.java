@@ -19,7 +19,7 @@ public class Gato extends Animal {
 
     @Override
     public String emitirSom() {
-        return "Au au!";
+        return "Miau Miau!";
     }
 
     @Override
