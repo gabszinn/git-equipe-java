@@ -1,9 +1,9 @@
 package git.equipe.modelo;
 
 public class Animal {
-  private String especie;
-  private String sexo;
-  private int idade;
+  protected String especie;
+  protected String sexo;
+  protected int idade;
   
   public Animal(String especie, String sexo, int idade) {
     this.especie = especie;

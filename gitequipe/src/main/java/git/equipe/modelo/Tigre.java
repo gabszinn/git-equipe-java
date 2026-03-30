@@ -13,6 +13,6 @@ public class Tigre extends Animal {
 
     @Override
     public String toString() {
-    return "Especie:  " + especie + ", Idade:  " + idade + " Sexo: " + sexo;
+        return "Especie:  " + especie + ", Idade:  " + idade + " Sexo: " + sexo;
     }
 }
