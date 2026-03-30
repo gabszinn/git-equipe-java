@@ -15,3 +15,4 @@ public class Tigre extends Animal {
     public String toString() {
     return "Especie:  " + especie + ", Idade:  " + idade + " Sexo: " + sexo;
     }
+}
