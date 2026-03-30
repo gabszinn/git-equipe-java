@@ -17,8 +17,9 @@ public class App
     {
         List<Animal> animais = new ArrayList<>();
 
-        Animal tigre = new Tigre("Tibre-siberiano", "fêmea", 5);
-        Animal gato = new Gato( "Gato Persa", "macho", 3);
+
+        Animal tigre = new Tigre("Tigre-siberiano", "fêmea", 5, "Floresta");
+        Animal gato = new Gato( "Gato Persa", "macho", 3, "branco");
 
         animais.add(tigre);
         animais.add(gato);
